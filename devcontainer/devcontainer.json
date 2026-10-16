@@ -7,7 +7,12 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "yzhang.markdown-all-in-one"
-      ]
+      ],
+      "settings": {
+        "editor.fontFamily": "'Fira Code', monospace",
+        "editor.fontLigatures": true,
+        "terminal.integrated.fontFamily": "'Fira Code', monospace"
+      }
     }
   },
   "postCreateCommand": "npm install -g opencode-ai bun && bun install",
